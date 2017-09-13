@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Test">
+
+	<listeners>
+	 	 <listener class-name="listener.ExecutionListener" />
+	     <listener class-name="listener.Reporter" />
+	</listeners>
+	
+ 	<test name="钉钉" preserve-order="true">
+
+	  <classes>
+		<class name="testCase.testCase03"/>
+	  </classes>
+	  
+	</test>
+	
+</suite>		

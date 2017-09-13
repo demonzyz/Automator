@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<对象>
+
+	<登录>
+    	<用户名><type>id</type><value>com.alibaba.android.rimet:id/et_phone_input</value></用户名>
+    	<密码><type>id</type><value>com.alibaba.android.rimet:id/et_pwd_login</value></密码>
+    	<登录按钮><type>id</type><value>com.alibaba.android.rimet:id/btn_next</value></登录按钮>
+    </登录>
+    
+    <我的>
+    	<我><type>name</type><value>new UiSelector().text("我的")</value></我>
+    	<用户><type>name</type><value>new UiSelector().text("小智")</value></用户>
+    	<设置><type>id</type><value>com.alibaba.android.rimet:id/rl_setting_text</value></设置>
+    	<登出><type>name</type><value>new UiSelector().text("退出登录")</value></登出>
+    	<确认登出><type>id</type><value>android:id/button1</value></确认登出>
+    </我的>
+   
+</对象>
