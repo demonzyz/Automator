@@ -26,8 +26,7 @@ public class MailDemo {
 		Session session = Session.getInstance(properties);
 		
 		//开启session的debug模式，这样就可以查看到程序发送Email的运行状态
-		
-		
+			
 		session.setDebug(true);
 		
 		//2、通过session得到transport对象
