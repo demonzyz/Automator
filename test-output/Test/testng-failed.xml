@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Test]">
+  <listeners>
+    <listener class-name="listener.ExecutionListener"/>
+    <listener class-name="listener.Reporter"/>
+  </listeners>
+  <test name="钉钉(failed)">
+    <classes>
+      <class name="testCase.testCase01">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="case01"/>
+        </methods>
+      </class> <!-- testCase.testCase01 -->
+    </classes>
+  </test> <!-- 钉钉(failed) -->
+</suite> <!-- Failed suite [Test] -->
