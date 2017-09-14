@@ -11,10 +11,6 @@ public class MailDemo {
 	
 	public static void main(String[] args) throws Exception  {
 		
-		//使用JavaMail发送邮件的5个步骤
-		//使用JavaMail发送邮件的5个步骤
-		//使用JavaMail发送邮件的5个步骤
-		
 		Properties properties = new Properties();
 		
 		properties.setProperty("mail.host", "smtp.163.con");
