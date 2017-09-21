@@ -5,6 +5,7 @@ package util;
 import java.util.HashMap;
 import java.util.Map;
 import org.openqa.selenium.remote.DesiredCapabilities;
+
 import base.AppConfig;
 
 public class Parameter extends DesiredCapabilities{
