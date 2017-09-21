@@ -7,14 +7,15 @@ import javax.mail.Transport;
 import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeMessage;
 
+
 public class MailDemo {
-	
+
 	public static void main(String[] args) throws Exception  {
-		
+
 		Properties properties = new Properties();
 		
-		properties.setProperty("mail.host", "smtp.163.con");
-		
+//		properties.setProperty("mail.host", "smtp.163.com");
+		properties.setProperty("smtp", "smtp.163.com");
 		properties.setProperty("mail.transport.protocol", "smtp");
 		
 		properties.setProperty("mail.smtp.auth", "true");
